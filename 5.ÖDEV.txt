@@ -1,0 +1,31 @@
+
+
+//PATİKA 5. ÖDEVYarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı bulan programı yazınız.
+
+//𝜋 sayısını = 3.14 alınız Formül : (𝜋 * (r*r) * 𝛼) / 360
+
+
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+            int r;
+            int aci ;
+            double pi = 3.14;
+            double dairedilimi;
+            Scanner inp =new Scanner(System.in);
+
+            r= inp.nextInt();
+            aci= inp.nextInt();
+
+        dairedilimi = (pi * (r * r) * aci ) / 360;
+
+
+        System.out.println("Daire Diliminin Alanı : " +dairedilimi);
+
+    }
+}
+
